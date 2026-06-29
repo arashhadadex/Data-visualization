@@ -3,7 +3,7 @@ Learn how to use Pandas .plot() for fast DataFrame visualization, like histogram
 
 This guide uses the California Housing dataset (20,000+ rows) to show real-world visualization patterns. You'll also see where Seaborn fits for statistical plots and when to reach for Plotly to add interactivity.
 
-## Full blog: https://datatodeploy.com/exploring-pandas-dataframe-visualization-in-one-line-of-code/
+### Full blog: https://datatodeploy.com/exploring-pandas-dataframe-visualization-in-one-line-of-code/
 
 ## Load the Dataset
 ```
