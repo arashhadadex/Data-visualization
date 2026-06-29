@@ -3,6 +3,8 @@ Learn how to use Pandas .plot() for fast DataFrame visualization, like histogram
 
 This guide uses the California Housing dataset (20,000+ rows) to show real-world visualization patterns. You'll also see where Seaborn fits for statistical plots and when to reach for Plotly to add interactivity.
 
+---
+
 ## Load the Dataset
 ```
 import pandas as pd
@@ -13,6 +15,7 @@ import matplotlib.pyplot as plt
 url = "https://raw.githubusercontent.com/ageron/handson-ml/master/datasets/housing/housing.csv"
 df = pd.read_csv(url)
 ```
+---
 
 ## Histograms: Check Your Distributions First
 ```
@@ -25,6 +28,8 @@ df['median_house_value'].plot(
     title='Distribution of Median House Values (California Housing Dataset)'
 )
 ```
+---
+
 ## Line plots
 ```
 df_sorted.plot(
@@ -37,40 +42,52 @@ df_sorted.plot(
     title='Median House Value vs. Median Income'
 )
 ```
-
+---
 ## Bar plots
 ## Correlation Heatmap
 ## Scatter plots
 ## Pair plots with seaborn
 ## Box plots
 ## Plotly
-
+---
 Start with a histogram. Then a scatter plot. Then a heatmap. By the time you've run those three on a new dataset, you'll already know more about it than most people who've only read the column names.
 
-Requirements
+---
+## Requirements
 
 No installation needed if you run the notebook in Google Colab. All libraries used are pre-installed in Colab:
-
+```
 pandas
-numpy
-To run locally:
-
+matplotlib
+seaborn plotly
+```
+---
+## To run locally:
+```
 pip install pandas numpy
 jupyter notebook
-Repository Structure
+```
+---
 
+## Repository Structure
+```
 ├── visualization.ipynb 
 └── README.md
+```
+---
 📖 Related Article
 
 This notebook is the companion code for the article:
 
 https://datatodeploy.com/exploring-pandas-dataframe-visualization-in-one-line-of-code/
 
-Contributing
+---
+## Contributing
 
 Found a bug or want to add another trick? Feel free to open an issue or submit a pull request.
 
-License
+---
+
+## License
 
 This project is open source and available under the MIT License.
