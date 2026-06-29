@@ -3,8 +3,6 @@ Learn how to use Pandas .plot() for fast DataFrame visualization, like histogram
 
 This guide uses the California Housing dataset (20,000+ rows) to show real-world visualization patterns. You'll also see where Seaborn fits for statistical plots and when to reach for Plotly to add interactivity.
 
-### Full blog: https://datatodeploy.com/exploring-pandas-dataframe-visualization-in-one-line-of-code/
-
 ## Load the Dataset
 ```
 import pandas as pd
@@ -48,3 +46,31 @@ df_sorted.plot(
 ## Plotly
 
 Start with a histogram. Then a scatter plot. Then a heatmap. By the time you've run those three on a new dataset, you'll already know more about it than most people who've only read the column names.
+
+Requirements
+
+No installation needed if you run the notebook in Google Colab. All libraries used are pre-installed in Colab:
+
+pandas
+numpy
+To run locally:
+
+pip install pandas numpy
+jupyter notebook
+Repository Structure
+
+├── visualization.ipynb 
+└── README.md
+📖 Related Article
+
+This notebook is the companion code for the article:
+
+https://datatodeploy.com/exploring-pandas-dataframe-visualization-in-one-line-of-code/
+
+Contributing
+
+Found a bug or want to add another trick? Feel free to open an issue or submit a pull request.
+
+License
+
+This project is open source and available under the MIT License.
