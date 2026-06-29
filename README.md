@@ -39,7 +39,7 @@ df_sorted.plot(
     title='Median House Value vs. Median Income'
 )
 ```
-t
+
 ## Bar plots
 ## Correlation Heatmap
 ## Scatter plots
